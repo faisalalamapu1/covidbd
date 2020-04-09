@@ -1,0 +1,58 @@
+#path4160{fill: #800000 !important}
+#path3206{fill: #bf0000 !important}
+#path6102{fill: #e22c2c !important}
+#path2177{fill: #f94f5b !important}
+#path2440{fill: #f66d76 !important}
+#path2440{fill: #f66d76 !important}
+#path4179{fill: #fa8c94 !important}
+#path2229{fill: #fa8e96 !important}
+#path6105{fill: #fa8e96 !important}
+#bdmap{
+    display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 70px;
+  
+}
+path:hover, circle:hover {
+    stroke: #006747 !important;
+    stroke-width:2px;
+    stroke-linejoin: round;
+    fill: #006747 !important;
+    cursor: pointer;
+  }
+  .st15{color: black;}
+  #info-box {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: #ffffff;
+    border: 2px solid #BF0A30;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: arial;
+  }
+  .today{
+      position: absolute;
+      margin-top: 50px;
+      padding-left: 5px;
+      padding-top: 10px;
+      width: 130px;
+      height: 155px;
+      right: 0px;
+      box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+      background-color: #F8F884;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.2;
+  }
+  body{background-color: #E2DAD9;}
+  .bld{font-weight: bold;text-align: center;}
+  .stay{text-align: center;}
+  .sources{position: absolute;bottom: -70px; padding-bottom: 10px;}
+  .develop{position: absolute;bottom: -90px; padding-bottom: 10px;font-size: small;}
+  .map{position: absolute;bottom: -110px; padding-bottom: 10px;font-size: small;}
