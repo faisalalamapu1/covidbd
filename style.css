@@ -64,9 +64,18 @@ path:hover, circle:hover {
       font-family: Arial, Helvetica, sans-serif;
       line-height: 1.2;
   }
+  .bangladesh{margin-left: 10px;}
   body{background-color: #E2DAD9;}
   .bld{font-weight: bold;text-align: center;}
   .stay{margin-left: 10px;}
   .sources{position: absolute;bottom: -70px; padding-bottom: 10px;}
   .develop{position: absolute;bottom: -90px; padding-bottom: 10px;font-size: small;}
   .map{position: absolute;bottom: -110px; padding-bottom: 10px;font-size: small;}
+  @media all and (min-width: 768px) {
+    .stay {
+      text-align: center;
+    }
+    .bangladesh{
+      text-align: center;
+    }
+}
