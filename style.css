@@ -54,7 +54,6 @@ path:hover, circle:hover {
   }
   .today{
       position: absolute;
-      margin-top: 40px;
       padding-left: 5px;
       padding-top: 10px;
       width: 130px;
@@ -67,7 +66,7 @@ path:hover, circle:hover {
   }
   body{background-color: #E2DAD9;}
   .bld{font-weight: bold;text-align: center;}
-  .stay{text-align: center;}
+  .stay{margin-left: 10px;}
   .sources{position: absolute;bottom: -70px; padding-bottom: 10px;}
   .develop{position: absolute;bottom: -90px; padding-bottom: 10px;font-size: small;}
   .map{position: absolute;bottom: -110px; padding-bottom: 10px;font-size: small;}
