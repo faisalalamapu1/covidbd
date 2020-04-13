@@ -75,7 +75,7 @@ path:hover, circle:hover {
       line-height: 1.2;
   }
   .bangladesh{margin-left: 10px;}
-  body{background-color: #E2DAD9;}
+  body{background-color: #e9e9e9;}
   .bld{font-weight: bold;text-align: center;}
   .stay{margin-left: 10px;}
   .sources{position: absolute;bottom: -70px; padding-bottom: 10px;}
@@ -88,4 +88,13 @@ path:hover, circle:hover {
     .bangladesh{
       text-align: center;
     }
+}
+.shadow {
+  -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(75, 75, 75, 0.7));
+  /* Similar syntax to box-shadow */
+}
+.udted{
+  text-align: right;
+  margin-top: 600px;
 }
