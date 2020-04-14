@@ -6,6 +6,8 @@
     <title>COVID2019</title>
     <link rel="stylesheet" href="style.css">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="scripts.js"></script>
+	<script src="Chart.min.js"></script>
 	<script type="text/javascript"> 
 		function disableselect(e){  
 		return false  
@@ -84,7 +86,7 @@
 		<path id="path3175" class="st3" d="M280.4,887L280.4,887z"/>
 		<g id="g5219" transform="matrix(2.5417852,0,0,2.5027642,-20.817184,-25.22581)">
 			<g id="g4167">
-				<path id="path3168"data-info="<div>District:Rajshahi  </div><div>Affected:0</div>  <div>Death:0</div><div>Recovered:0</div>" class="st4" d="M46,321l1.5-3.5L44,313l0.5-6.5l-3-3.5l0.5-4l10-3l6-3l-0.5-4l9.5,0.5l1.5-1.5l-1.5-2.5
+				<path id="path3168"data-info="<div>District:Rajshahi  </div><div>Affected:2</div>  <div>Death:0</div><div>Recovered:0</div>" class="st4" d="M46,321l1.5-3.5L44,313l0.5-6.5l-3-3.5l0.5-4l10-3l6-3l-0.5-4l9.5,0.5l1.5-1.5l-1.5-2.5
 					l-2.5,1.5l-3.5-2l6.5-3.5L75,284l0.5,4l3,1l3-3.5l2.5,2l-0.5,5.5l4.5,2l11-6l-0.5-1l5.5,2l3,2.5l4-0.5l3.5,3.5l4-1.5v5l0.5,2.5
 					l4,2h2.5v3l-1,2.5l-5.5,0.5l-3,2.5h2l3,3l-4.5,3.5l0.5,2.5l0,0l0.5,13.5l-5,3.5l-1,1.5l0,0l2.5,5l4-1l0.5,3l1,2.5l1.5,1.5
 					l-6.5,2.5l-2,2l2.5,2l-3,1.5l2,1.5l-2,1.5l5.5,1l1,2l-4,1l-0.5,2h-5l-7-3l-4.5-4l-2-1l-3.5-1v-2l4-1l0.5-10.5l-3.5-7.5l-4-0.5
@@ -291,7 +293,7 @@
 			l12.7-13.8l-25.4-5l-8.9-11.3l-6.4-13.8l-8.9-5l-6.4-16.3l-12.7-6.3l10.2-8.8l-24.1-1.3l-2.5-10l-6.4-2.5L621,939.6l-3.8-2.5
 			l-8.9,10l-3.8-6.3l-5.1,11.3l-7.6-2.5l-6.4-5l-3.8,5l-5.1-7.5L572.7,925.8L572.7,925.8z"/>
 		<path id="path4160" data-info="<div>District:Dhaka
-        </div><div>Affected:313</div><div>Death:13</div><div>Recovered:0</div>" class="st9" d="M655.3,1064.7l6.4-7.5v-12.5l21.6-2.5l7.6-5l28,6.3l-6.4-22.5l12.7-11.3l-21.6-6.3l-6.4-1.3
+        </div><div>Affected:383</div><div>Death:13</div><div>Recovered:0</div>" class="st9" d="M655.3,1064.7l6.4-7.5v-12.5l21.6-2.5l7.6-5l28,6.3l-6.4-22.5l12.7-11.3l-21.6-6.3l-6.4-1.3
 			l-12.7-23.8l-10.2-5l-3.8-16.3l-14-8.8l10.2-7.5l-21.6-2.5l1.3-6.3v-7.5l10.2,7.5l11.4-8.8l15.3,7.5l11.4-5l7.6,12.5l10.2-5
 			l10.2-2.5l3.8,6.3l6.4-18.8l11.4,17.5l-10.2,8.8l8.9,2.5l19.1,2.5l1.3,23.8l10.2-2.5l6.4,6.3h8.9l6.4-5h6.4l1.3,10v8.8l-2.5,7.5
 			l11.4,32.5l5.1,5l-5.1,2.5l-21.6,10l8.9,15l-3.8,13.8l-11.4-10l-3.8,6.3l-3.8,16.3l-8.9-2.5l5.1-15l-11.4-6.3l-6.4-7.5l-19.1-3.8
@@ -307,7 +309,7 @@
 		<path id="path7073"data-info="<div>District:  </div><div>Affected:0</div>  <div>Death:0</div><div>Recovered:0</div>" class="st11" d="M812.9,1258.7l-10.2,1.5l-6.4,11.8l5.1,10.3l14-1.5l10.2,11.8l5.1-7.3l-2.5-13.2l-5.1-8.8
 			L812.9,1258.7L812.9,1258.7z"/>
 		<path id="path2229"data-info="<div>District:Gazipur
-        </div><div>Affected:13</div>  <div>Death:0</div><div>Recovered:0</div>" class="st10" d="M685.8,928.3l20.3-17.5l-2.5-10h5.1v-7.5l7.6,7.5l7.6-1.3l-1.3-21.3l3.8-13.8l17.8-7.5
+        </div><div>Affected:35</div>  <div>Death:0</div><div>Recovered:0</div>" class="st10" d="M685.8,928.3l20.3-17.5l-2.5-10h5.1v-7.5l7.6,7.5l7.6-1.3l-1.3-21.3l3.8-13.8l17.8-7.5
 			l-2.5-11.3l11.4-5l-3.8-3.8l7.6-2.5l8.9-1.3l3.8-7.5l7.6,8.8l7.6-1.3l5.1,3.8l3.8-21.3l12.7-1.3l3.8,5l15.3,6.3v6.3l10.2,10h11.4
 			l2.5-3.8h10.2l14,8.8l7.6,3.8l-7.6,5l1.3,11.3l5.1,10l-3.8,8.8l-1.3,7.5l7.6,7.5l-14,2.5l-5.1-5l-3.8,3.8l5.1,2.5l2.5,23.8
 			l-6.4,15l-6.4,1.3l3.8,6.3l-7.6,12.5l-10.2,7.5l-6.4-5l-12.7-15l-1.3,6.3l-7.6-1.3l-10.2,21.3l-6.4-5l-5.1,3.8l-10.2,2.5l-7.6-7.5
@@ -369,13 +371,13 @@
 			l2.5,10l-6.4,2.5l-2.5-6.3l-1.3-5l-7.6-1.3l-8.9,8.8l5.1,5V852l-6.4,7.5l-2.5,25h-8.9l-6.4-13.8l-10.2-8.8l5.1-5l-10.2,2.5h-11.4
 			l-3.8-7.5l-7.6,1.3h1.3V877l5.1,7.5l-6.4,5l-6.4-2.5l-3.8-6.3l-11.4-7.5L1187.8,854.5L1187.8,854.5z"/>
 		<path id="path2231"data-info="<div>District:Narsingdi
-        </div><div>Affected:4</div>  <div>Death:0</div><div>Recovered:0</div>" class="st9" d="M840.8,972.1l12.7-11.3l5.1-7.5l-5.1-8.8h7.6l5.1-13.8v-13.8l-2.5-12.5l-6.4-3.8l5.1-3.8
+        </div><div>Affected:20</div><div>Death:0</div><div>Recovered:0</div>" class="st9" d="M840.8,972.1l12.7-11.3l5.1-7.5l-5.1-8.8h7.6l5.1-13.8v-13.8l-2.5-12.5l-6.4-3.8l5.1-3.8
 			l6.4,7.5l11.4-2.5h3.8l-7.6-8.8l3.8-16.3l-3.8-8.8v-12.5l5.1-5l7.6,1.3l8.9-7.5l11.4,18.8l8.9,3.8l6.4,10l12.7,5l1.3,3.8l-7.6,3.8
 			l6.4,7.5l-8.9,2.5l14-1.3l7.6,8.8l11.4-3.8l2.5,12.5l7.6,3.8l-2.5,3.8l-7.6,12.5l3.8,11.3l-6.4,2.5l-7.6,20l-5.1,3.8l-2.5,6.3
 			l-1.3,2.5l-16.5-1.3l-8.9,3.8h-7.6v-2.5l-8.9-1.3l-3.8,2.5l-1.3,16.3l-7.6,12.5l-11.4-10l-1.3-6.3l-2.5,8.8l-10.2-2.5l-3.8-3.8
 			l7.6-3.8l-3.8-8.8l-8.9,3.8l-2.5,6.3l-3.8-7.5l8.9-12.5L840.8,972.1L840.8,972.1z"/>
 		<path id="path3204"data-info="<div>District:  </div><div>Affected:0</div>  <div>Death:0</div><div>Recovered:0</div>" class="st3" d="M797.6,1083.5L797.6,1083.5z"/>
-		<path id="path3206"data-info="<div>District:Narayanganj </div><div>Affected:107</div>  <div>Death:2</div><div>Recovered:0</div>" class="st11" d="M797.6,1063.5l-11.4-17.5l29.2-10l-15.3-36.3l3.8-8.8v-11.3l8.9-23.8l7.6,2.5l1.3-6.3
+		<path id="path3206"data-info="<div>District:Narayanganj </div><div>Affected:144</div>  <div>Death:2</div><div>Recovered:0</div>" class="st11" d="M797.6,1063.5l-11.4-17.5l29.2-10l-15.3-36.3l3.8-8.8v-11.3l8.9-23.8l7.6,2.5l1.3-6.3
 			l15.3,18.8l17.8,7.5l-8.9,8.8l2.5,7.5l14-8.8l5.1,6.3l-8.9,8.8l12.7,3.8l15.3,5l-1.3,5l-3.8,11.3l-8.9,7.5l-2.5,11.3l-8.9-2.5
 			h-6.4l-2.5,8.8v12.5l-16.5,7.5l-6.4,6.3l-6.4,7.5l-10.2-1.3v-7.5l-8.9,6.3l-7.6-6.3L797.6,1063.5L797.6,1063.5z"/>
 		<path id="path4177"data-info="<div>District:Brahmanbaria</div><div>Affected:6</div>  <div>Death:0</div><div>Recovered:0</div>" class="st10" d="M906.9,1046l-15.3-6.3v-3.8l-12.7-10l3.8-10l11.4-13.8l1.3-17.5l8.9-5l3.8,5h11.4l3.8-3.8
@@ -384,7 +386,7 @@
 			l6.4,20l6.4,8.8v3.8l-5.1,2.5v10v3.8l-14,6.3l5.1,12.5l-10.2,2.5l-7.6,15l7.6,8.8l1.3,6.3l-6.4,5l-2.5,10l5.1,10l-7.6,10l-5.1-3.8
 			h-8.9l-6.4,5l1.3,15l6.4,2.5l3.8-5l3.8,2.5v16.3h-5.1l-8.9-7.5l-2.5,3.8l-10.2-10v-10h-5.1l-1.3-5l-10.2-2.5l6.4-5l-14-11.3
 			l-20.3-1.3l-8.9,7.5h-15.3l-6.4,1.3l2.5,10l-11.4,2.5l-14-10l-7.6,5l1.3,3.8l3.8,3.8L906.9,1046L906.9,1046z"/>
-		<path id="path2235"data-info="<div>District: Munshiganj </div><div>Affected:14</div>  <div>Death:0</div><div>Recovered:0</div>" class="st12" d="M703.5,1112.1l5.4-19.5l10.8,5.3l7.2-8.8v-15.9l9-19.5l18,5.3l18,12.4l-5.4,17.7l10.8,1.8
+		<path id="path2235"data-info="<div>District: Munshiganj </div><div>Affected:17</div>  <div>Death:0</div><div>Recovered:0</div>" class="st12" d="M703.5,1112.1l5.4-19.5l10.8,5.3l7.2-8.8v-15.9l9-19.5l18,5.3l18,12.4l-5.4,17.7l10.8,1.8
 			l5.4-19.5l21.6,14.2l18,3.5l3.6,8.8l7.2,5.3v12.4l-1.8,10.6l-9,14.2l-3.6,14.2l-12.6-14.2h-23.4l-18-5.3h-14.4l-16.2-3.5
 			L703.5,1112.1L703.5,1112.1z"/>
 		<path id="path3207"data-info="<div>District:  </div><div>Affected:0</div>  <div>Death:0</div><div>Recovered:0</div>" class="st12" d="M773.6,1142.2l32.4,7.1l-3.6,17.7L773.6,1142.2z"/>
@@ -399,7 +401,7 @@
 			l-16.2-2.2l-8.1-5.3l-8.1-0.4l-9.4,5.3l-3.1-2.2h-9l-11.7-5.8l-5.8-10.2l-0.4,0.9l-7.2-0.4l-4.9-7.1l8.5-2.2l5.4-7.5l-0.9-15.5
 			l5.8-9.7l-6.7-6.2l-1.3-9.7l-8.1-9.7l-3.6-8l-13.5-9.7l-1.8-8.8l-9.4-6.2l-3.6-17.3l-18-4.9l-13,11.1l-4.9-3.1l-4.9,10.2h-5.4
 			l-12.1-6.6v-8.4h-0.4l-5.8-6.2l-8.5-8.4l7.2-4l-0.4-8.4L880.5,1090.5L880.5,1090.5z"/>
-		<path id="path5150"data-info="<div>District:Chandpur  </div><div>Affected:4</div>  <div>Death:0</div><div>Recovered:0</div>" class="st10" d="M847.2,1286.2l-12.7-21.3l-5.1-12.5l6.4-17.5l8.9-15l11.4-12.5l3.8-12.5l-5.1-10v-8.8l-8.9-5
+		<path id="path5150"data-info="<div>District:Chandpur  </div><div>Affected:6</div>  <div>Death:0</div><div>Recovered:0</div>" class="st10" d="M847.2,1286.2l-12.7-21.3l-5.1-12.5l6.4-17.5l8.9-15l11.4-12.5l3.8-12.5l-5.1-10v-8.8l-8.9-5
 			l-8.9-2.5v-8.8l-7.6-3.8l6.4-12.5l2.5-12.5l1.3-10l12.7-3.8l8.9-3.8l7.6-1.3l14,12.5l1.3,8.8l14,6.3l6.4-8.8l5.1,5l12.7-16.3
 			l21.6,6.3l2.5,16.3l11.4,7.5l1.3,11.3l12.7,11.3l11.4,15l-1.3,8.8l10.2,8.8l-7.6,7.5l1.3,16.3l-3.8,8.8H973l-5.1,2.5l-7.6-5
 			l-14,1.3l-6.4-10h-6.4l-7.6,3.8l-3.8,12.5l-2.5,8.8l-17.8,6.3h-6.4l-12.7,7.5h-2.5l-3.8-7.5h-3.8l-3.8,5l-1.3,12.5v6.3l-7.6,8.8
@@ -463,7 +465,7 @@
 		<path id="path2436"data-info="<div>District:  </div><div>Affected:0</div>  <div>Death:0</div><div>Recovered:0</div>" class="st12" d="M1075.5,1374.1l16.2,5.3l3.6,12.4l-5.4,1.8L1075.5,1374.1L1075.5,1374.1z"/>
 		<path id="path2438"data-info="<div>District:  </div><div>Affected:0</div>  <div>Death:0</div><div>Recovered:0</div>" class="st12" d="M1086.3,1409.5l10.8,19.5l7.2,10.6v7.1l-3.6,1.8l-3.6,17.7l5.4,19.5l16.2,17.7l10.8,5.3v10.6
 			l1.8,3.5h14.4l9-10.6l3.6-10.6v-10.6l-3.6-10.6l-28.8-47.8l-1.8-10.6L1086.3,1409.5z"/>
-		<path id="path2440"data-info="<div>District:Chattogram</div><div>Affected:12</div>  <div>Death:0</div><div>Recovered:0</div>" class="st12" d="M1240.9,1567l-10.8-7.1l-3.6-21.2l-1.8-19.5v-7.1l-12.6-19.5l-9-24.8l-14.4-12.4l-10.8-15.9
+		<path id="path2440"data-info="<div>District:Chattogram</div><div>Affected:18</div>  <div>Death:0</div><div>Recovered:0</div>" class="st12" d="M1240.9,1567l-10.8-7.1l-3.6-21.2l-1.8-19.5v-7.1l-12.6-19.5l-9-24.8l-14.4-12.4l-10.8-15.9
 			l-7.2-14.2v-5.3l-7.2-8.8l-9-7.1l-27-19.5l5.4-8.8l-12.6-12.4l1.8-10.6l5.4-21.2l18-7.1h7.2l1.8-17.7h14.4l12.6,3.5l7.2-8.8
 			l21.6-5.3l10.8,5.3l3.6,10.6l-7.2,12.4l9,12.4l9,17.7l9,15.9l7.2,12.4v-14.2h14.4l7.2,5.3v15.9l12.6,1.8l3.6,17.7l1.8,19.5
 			l5.4,14.2l-1.8,12.4l12.6,8.8l3.6-8.8l1.8-8.8l-5.4-7.1l1.8-15.9l14.4-5.3l14.4,15.9l12.6,30.1l3.6,21.2l-12.6,23l19.8,14.2
@@ -654,7 +656,7 @@
   <div class="sources"><span>Sources: </span><span><a href="https://www.iedcr.org/"> iedcr,</a></span><span><a href="https://www.somoynews.tv/"> somoytv,</a></span><span><a href="https://www.worldometers.info/coronavirus/"> worldometer</a></span></div>
   <div class="develop">Developed By: Faisal Alam <a href="https://www.baiust.edu.bd/">(BAIUST)</a></div>
   <div class="map">Map Credit: <a href="https://en.wikipedia.org/wiki/Districts_of_Bangladesh#/media/File:BD_Map_admin.svg">wikipedia</a></div>
-  <div class="udted">Upadated result of 12-04-2020</div>
+  <div class="udted">Upadated result of 13-04-2020</div>
   <script>$("path, circle").hover(function(e) {
     $('#info-box').css('display','block');
     $('#info-box').html($(this).data('info'));
@@ -681,5 +683,7 @@ document.onmousedown=disableselect
 document.onclick=reEnable
 }
   </script>  
+  
+	<script src="script.js"></script>
 </body>
 </html>
